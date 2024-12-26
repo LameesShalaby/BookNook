@@ -1,0 +1,19 @@
+.grid {
+  @apply grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4;
+}
+
+button {
+  @apply w-full sm:w-auto;
+}
+
+.cart-item {
+  @apply flex flex-col sm:flex-row;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+button {
+  background-color: #4caf50;
+}
